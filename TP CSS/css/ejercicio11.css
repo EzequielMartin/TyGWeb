@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#header {
+    background-color: red;
+}
+
+#nav {
+    background-color: orange;
+}
+
+#section {
+    background-color: yellow;
+    float: left;
+    height: 150px;
+    width: 70%;
+}
+
+#aside {
+    background-color: blue;
+    height: 150px;
+}
+
+#footer {
+    background-color: purple;
+    clear: both;
+    font-weight: bold;
+}
+
+body {
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 5%;   
+}
+
+div {
+    padding: 10px
+}
+
+ul {
+    list-style: none;
+}
+
+.article {
+    background-color: green;
+    margin: 20px;
+}
+
+.article p {
+    text-align: left;
+    font-size: medium;
+}

@@ -1,0 +1,35 @@
+table, th, td {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    
+}
+
+tr.titulos {
+    background-color: lightgrey;
+}
+
+th.moneda {
+    padding-left: 25px;
+}
+
+th.moneda#dolar {
+    background: #E6F3FF url(/img/dolar.jpg) no-repeat 1px;
+}
+
+th.moneda#euro {
+    background: #E6F3FF url(/img/euro.jpg) no-repeat 1px;
+}
+
+th.moneda#yen {
+    background: #E6F3FF url(/img/yen.jpg) no-repeat 1px;
+}
+
+th.moneda#libra {
+    background: #E6F3FF url(/img/libra.jpg) no-repeat 1px;
+}
+
+tr:nth-child(even) {
+    background-color: lightgoldenrodyellow;
+}
