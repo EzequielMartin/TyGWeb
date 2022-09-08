@@ -16,7 +16,7 @@ ul li {
     border-bottom: 1px solid grey;
     padding: 5px;
     padding-left: 35px;
-    background: lightgray url(/ej8ico1.png) no-repeat 5px;
+    background: lightgray url(/img/ej8ico1.png) no-repeat 5px;
 }
 
 ul li a {
@@ -25,5 +25,5 @@ ul li a {
 }
 
 ul li:hover {
-    background: grey url(/ej8ico2.png) no-repeat 5px;
+    background: grey url(/img/ej8ico2.png) no-repeat 5px;
 }
