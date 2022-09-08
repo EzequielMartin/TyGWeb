@@ -1,0 +1,13 @@
+div {
+    background-color: lightgray;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+.anterior {
+    float: left;
+}
+
+.siguiente {
+    float: right;
+}
