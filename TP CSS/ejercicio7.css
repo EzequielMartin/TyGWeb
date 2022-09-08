@@ -1,0 +1,11 @@
+#galeria img {
+    border: lightgrey 1px solid;
+    padding: 0.5em;
+    margin: 1em;
+    float:left;
+    max-width: 30%;
+}
+
+#galeria {
+    max-width: 40%;
+}

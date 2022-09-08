@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor {
+    padding: 10px;
+    width: 40%;
+    margin: 10px;
+    border: 1px solid black
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: small;
+    margin: 5px
+}
+
+.requerido {
+    color: red;
+}
+
+ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    font-size: x-small;
+    margin: 5px;
+    margin-top: 0px;
+}
+
+li {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    border-top: 1px solid grey;
+}
+
+input {
+    margin: 5px;
+}
+
+select {
+    margin: 5px;
+}
+
+.ayuda {
+    font-size: small;
+    display:none
+}
+
+.botones {
+    text-align: right;
+    width: 100%;
+}
+
+.botones #alta {
+    max-width: fit-content;
+    padding: 0.2em;
+}
+
+
+ul li div span {
+    float: left;
+    padding: 0.1em 0;
+}
+
+.completo {
+    width: 100%;
+}
+
+.untercio {
+    width: 20%;
+}
+
+.dostercios {
+    width: 67%;
+}
+
+.mitad {
+    width: 30%;
+}
+
+input#nombre, input#telefonofijo, input#telefonomovil {
+    width: 125px;
+}
+
+input#direccion, input#apellido1, input#apellido2 {
+    width: 250px;
+}
+
+input#codigopostal, select#provincia {
+    width: 80px;
+}
+
+input#municipio, select#pais {
+    width: 150px;
+}
+
+li:hover {
+    background-color: yellow;
+}
+
+li:hover .ayuda {
+    display: block;
+    width: 30%;
+    position: absolute;
+    top:5px;
+    right:0;
+}
+
+li.botones {
+    border-top: 2px solid lightgrey;
+}
+
+ul li div {
+    overflow: hidden;
+    margin-left: 20%;
+}
+
+label.titulo {
+    display: inline;
+    float:left;
+    text-align: right;
+}
+
+li input:hover, li select:hover {
+    border: 2px solid orange;
+}
